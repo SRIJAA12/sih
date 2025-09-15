@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gram-urja-iot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run gram_urja_error_fixed.py --server.port $PORT --server.address 0.0.0.0 --server.headless true"
+    plan: free
