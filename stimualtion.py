@@ -30,6 +30,8 @@ st.markdown("""
         -webkit-text-fill-color: transparent;
         text-align: center;
         margin-bottom: 2rem;
+        margin-top: 2rem;
+            padding-top: 2 rem;
     }
     
     .efficiency-proof {
